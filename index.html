@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon (6).ico">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <!--Header Section-->
+    <div class="sectionheader">
+        <h2>BMI Calculator</h2>
+        <p>By: Igbagbo Olufiranye</p>
+    </div>
+    <!--Body Section-->
+    <div class="sectionbody">
+
+        <img src="bmi.png" alt="bmi guide">
+
+        <div class="calculator">
+            <form action="">
+                <div id="firstName">
+                    <label for="">First Name</label>
+                    <input class="firstName" type="text">
+                </div>
+
+                <div id="lastName">
+                    <label for="">Last Name</label>
+                    <input class="lastName" type="text">
+                </div>
+
+                <div id="mass">
+                    <label for="">Mass (in kg)</label>
+                    <input class="mass" type="number">
+                </div>
+
+                <div id="height">
+                    <label for="">Height (in metres)</label>
+                    <input class="height" type="number">
+                </div>
+            </form>
+
+            <div>
+                <button class="btn">Calculate</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="result">
+        <p>BMI results goes here.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

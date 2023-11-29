@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.sectionheader{
+    text-align: center;
+    padding: 2%;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.sectionbody{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding: 2%;
+}
+
+input{
+    font-size: 30px;
+    padding: 10px;
+}
+
+#firstName{
+    padding: 10px;
+}
+
+#lastName{
+    padding: 10px;
+}
+
+#mass{
+    padding: 10px;
+}
+
+#height{
+    padding: 10px;
+}
+
+.result{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+img{
+    width: 300px;
+}
+
+@media(max-width : 768px) {
+    body{
+        background-color: rgba(199, 198, 198, 0.539);
+    }
+
+    .sectionbody{
+        font-size: 30px;
+        padding: 1%;
+    }
+
+    .sectionheader{
+        padding: 1%;
+        font-size: 30px;
+    }
+}
+
+@media(max-width : 670px) {
+    .sectionbody{
+        font-size: 20px;
+    }
+
+    input{
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+
+@media(max-width : 450px) {
+    input{
+        width: 150px;
+        padding: 3px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width : 340px) {
+    .sectionheader{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    img{
+        width: 200px;
+    }
+    .btn{
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    .result{
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+}
